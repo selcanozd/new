@@ -1,0 +1,66 @@
+ 
+body,h1,ul,li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:url(images/1.jpg) #855e5e;
+    font-family: sans-serif;
+    background-color:gray;
+}
+.sayfa{
+    width: 950px;
+    margin:50px auto;
+}
+ 
+#baslik{
+    float: left;
+    font-size: 1.2em;
+    color: rgb(204, 58, 58);
+    text-decoration: rebeccapurple;
+}
+#menu{
+    float: right;
+    list-style: none;
+    margin-top: 1em;
+}
+#menu li{
+    float: left;   
+}
+#menu li a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 15px 20px;
+}
+#menu a:hover{
+    background: rgb(42, 155, 32);
+    border-radius: 15px;
+} 
+.orta{
+    margin-top: 40px;
+    background: #333;
+}
+.orta-sol{
+    float: left;
+    width: 450px;
+}
+.orta-sag{
+    float: left;
+    margin: 15px;
+    width: 470px;
+    color: #bbb;
+    height: 520px;
+}
+.alt{
+    background: rgb(204, 58, 58);
+    padding: 20px;
+    text-align: center;
+    color: #fff;   
+}
+.alt a{
+     color: #fff;
+}
+.temizle{
+    clear: both;
+}
